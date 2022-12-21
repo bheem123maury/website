@@ -1,0 +1,96 @@
+.headertotal{
+    line-height: 2px;
+    background-color:rgba(0, 0, 255, 0.516);
+    
+}
+
+
+.header1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 4px;
+    width: 100%;
+
+ 
+}
+.header1 ul li{
+     height: -2px;
+    
+    
+    padding: 5px 5px;
+    
+    
+    
+}
+.header1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.toll {
+    margin-left: 15px;
+    
+}
+.toll{
+    background-color: blue;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes animate{
+    0%{
+        background-color: aqua;
+    }
+}
+
+.last   {
+    margin-left: 50px;
+}
+.image1{
+    background-color: white;
+    font-size: 4px;
+
+    
+}
+
+.img1{
+        width: 60px;
+    height: 50px;
+    margin-left: -40px;
+
+
+} 
+.text{
+    width: 10px;
+    color:red;
+}
+.heading1{
+    
+    margin-left: 90px;
+    margin-top: -40px;
+}
+.heading1 .hh1{
+    font-size: 10px;
+    margin-left: -10px;
+    color: rgba(52, 101, 187, 0.939);
+
+}
+.heading1 .hh2{
+    font-size: 6px;
+}
+.heading1 .hh3{
+    margin-left: 25px;
+    font-size: 4px;
+    color: rgba(209, 13, 13, 0.929);
+}
+.bheem{
+    position: relative;
+    display: grid;
+    float: left;
+    left: 280px;
+    top: 4px;
+    width: 50px;
+   height: 45px;
+   opacity: .8;
+   border-radius: 2px;    
+}
